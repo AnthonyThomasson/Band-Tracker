@@ -1,0 +1,80 @@
+0000.040 () Opened log file at time: Tue, 18 Nov 2014 21:31:47 +0000 on http://wpress.bandtracker.ca
+0000.041 () UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.30 WP: 4.0 PHP: 5.5.9-1ubuntu4.5 (Linux vps32177 2.6.32-042stab093.5 #1 SMP Wed Sep 10 17:39:49 MSK 2014 x86_64) MySQL:  Server: Apache/2.4.7 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 3.9M | 4.3M) multisite: N mcrypt: Y LANG: C ZipArchive::addFile: Y
+0000.042 () Free space on disk containing Updraft's temporary directory: 8970.4 Mb
+0000.042 () Restore job started. Entities to restore: themes, uploads, others, db
+0000.069 () Entity: db
+0000.069 () restore_backup(backup_file=backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-db.gz, type=db, info=a:0:{}, last_one=)
+0000.069 () Unpacking backup...
+0000.070 () Database successfully unpacked
+0000.071 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.071 () Using direct MySQL access; value of use_mysqli is: 1
+0000.091 () Tried to raise max_allowed_packet from 16 Mb to 32 Mb, but failed (Access denied; you need (at least one of) the SUPER privilege(s) for this operation, b:0;)
+0000.091 () Max packet size: 16 Mb
+0000.093 () Backup created by: 1.9.30
+0000.094 () <strong>Backup of:</strong> http://wpress.bandtracker.ca
+0000.094 () Content URL: http://wpress.bandtracker.ca/wp-content
+0000.094 () Old table prefix: wp_
+0000.095 () Site information: multisite=0
+0000.099 () New table prefix: wp_
+0000.197 () Restoring table (InnoDB): wp_options
+0000.363 () Restoring table (InnoDB): wp_users
+0000.389 () Restoring table (InnoDB): wp_usermeta
+0000.418 () Restoring table (InnoDB): wp_commentmeta
+0000.441 () Restoring table (InnoDB): wp_comments
+0000.481 () Restoring table (InnoDB): wp_links
+0000.500 () Restoring table (InnoDB): wp_postmeta
+0000.548 () Restoring table (InnoDB): wp_posts
+0000.594 () Restoring table (InnoDB): wp_term_relationships
+0000.655 () Restoring table (InnoDB): wp_term_taxonomy
+0000.680 () Restoring table (InnoDB): wp_terms
+0000.704 () Restoring table (InnoDB): wp_frm_fields
+0000.737 () Restoring table (InnoDB): wp_frm_forms
+0000.780 () Restoring table (InnoDB): wp_frm_item_metas
+0000.821 () Restoring table (InnoDB): wp_frm_items
+0000.853 () Restoring table (InnoDB): wp_testimonial_basics
+0000.861 () Database queries processed: 50 in 0.78 seconds
+0000.874 () Restoring table (InnoDB): wp_wfBadLeechers
+0000.893 () Restoring table (InnoDB): wp_wfBlocks
+0000.911 () Restoring table (InnoDB): wp_wfBlocksAdv
+0000.928 () Restoring table (InnoDB): wp_wfConfig
+0001.094 () Restoring table (InnoDB): wp_wfCrawlers
+0001.115 () Restoring table (InnoDB): wp_wfFileMods
+0001.686 () Restoring table (InnoDB): wp_wfHits
+0001.724 () Restoring table (InnoDB): wp_wfHoover
+0001.752 () Restoring table (InnoDB): wp_wfIssues
+0001.793 () Restoring table (InnoDB): wp_wfLeechers
+0001.817 () Restoring table (InnoDB): wp_wfLockedOut
+0001.847 () Restoring table (InnoDB): wp_wfLocs
+0001.867 () Restoring table (InnoDB): wp_wfLogins
+0001.884 () Restoring table (InnoDB): wp_wfNet404s
+0002.134 () Restoring table (InnoDB): wp_wfReverseCache
+0002.157 () Restoring table (InnoDB): wp_wfScanners
+0002.178 () Restoring table (InnoDB): wp_wfStatus
+0002.223 () Restoring table (InnoDB): wp_wfThrottleLog
+0002.363 () Restoring table (InnoDB): wp_wfVulnScanners
+0002.382 () Database queries processed: 100 in 2.30 seconds
+0002.382 () Finished: lines processed: 100 in 2.30 seconds
+0002.382 () Cleaning up rubbish...
+0002.388 () Using Apache, with permalinks () but no mod_rewrite enabled
+0002.388 () Entity: themes
+0002.388 () restore_backup(backup_file=backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-themes.zip, type=themes, info=a:2:{s:4:"path";s:48:"/var/www/wpress.bandtracker.ca/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0002.389 () Unpacking backup... (backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-themes.zip, 8.3 Mb)
+0002.553 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.553 () Moving old data: can potentially use wp_filesystem method / -old
+0002.554 () Moving old data out of the way...
+0002.630 () Moving unpacked backup into place...
+0002.700 () Cleaning up rubbish...
+0002.700 () Entity: uploads
+0002.700 () restore_backup(backup_file=backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:49:"/var/www/wpress.bandtracker.ca/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0002.700 () Unpacking backup... (backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-uploads.zip, 3.2 Mb)
+0002.739 () Moving old data: filesystem method / updraft_dir is potentially possible
+0002.739 () Moving old data: can potentially use wp_filesystem method / -old
+0002.739 () Moving old data out of the way...
+0002.743 () Moving unpacked backup into place...
+0002.748 () Cleaning up rubbish...
+0002.748 () Entity: others
+0002.748 () restore_backup(backup_file=backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-others.zip, type=others, info=a:2:{s:4:"path";s:41:"/var/www/wpress.bandtracker.ca/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0002.748 () Unpacking backup... (backup_2014-11-07-0401_Band_Tracker_749d1b2bfac7-others.zip, 0 Mb)
+0002.750 () Cleaning up rubbish...
+0002.765 () Restore successful!
+0002.765 () Restore successful

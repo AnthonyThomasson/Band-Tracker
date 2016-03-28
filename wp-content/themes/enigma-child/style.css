@@ -1,0 +1,144 @@
+/*
+ Theme Name:   Enigma Child
+ Description:  Enigma Child Theme
+ Author:       Tyler Rop
+ Template:     enigma
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  enigma-child
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+/*makes the twitter widget5 100% width*/
+iframe[id^='twitter-widget-']
+{ 
+	width:100% !important;
+}
+
+body > div:nth-child(1) > div.header_section > div > div > div:nth-child(1) > div > p
+{
+    display: none;
+}
+.wfpf-img
+{
+    margin-top:-6px;
+}
+
+.insta
+{
+	width: 177px; 
+	height: auto; 
+	border: 1px solid #fff; 
+ 	background-color: #fff;
+    text-align:center;
+    float:left;
+    display:inline-block;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    -webkit-box-shadow: 0px 0px 2px 0px rgba(122,122,122,1);
+    -moz-box-shadow: 0px 0px 2px 0px rgba(122,122,122,1);
+    box-shadow: 0px 0px 2px 0px rgba(122,122,122,1);
+}
+
+.insta:hover 
+{
+	-webkit-box-shadow: 0px 0px 4px 2px #31A3DD;
+	-moz-box-shadow: 0px 0px 4px 2px #31A3DD;
+	box-shadow: 2px solid #31A3DD;
+}
+
+.profileArtistsIMG 
+{ 
+    width: 300px;
+    clear: both;
+    float: left;
+}
+
+.listArtistsIMG 
+{
+    height:auto; 
+    width: 100px; 
+    margin-right: 8px; 
+    margin-top:5px;
+    clear: both;
+    float: left;
+    width:100px; 
+    height:100px; 
+    background-position: top left;
+    background-size: cover;
+}
+
+.listArtistsPara
+{
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+}
+
+.listArtistsSpacer
+{
+    clear: both;
+    height: 7px;
+    width: 100%;
+}
+
+.conceptionArtistIMG
+{
+    
+}
+
+nav.navbar.navbar-default
+{
+    
+} 
+
+.listInfoHeader 
+{
+    background-color: #31708f; 
+    color: #ffffff;"
+    font-size: large;
+}
+
+.link:hover 
+{
+    color: #31A3DD;
+}
+
+.header-search {display:none}
+
+.genreMargins 
+{
+    margin-right: 20px;
+}
+
+.eventMargins
+{
+    margin-right: 20px;
+    min-height: 92px;
+}
+
+.alert.alert-success.col-lg-3.eventMargins
+{
+    min-height: 92px;
+    background-color: #34495e;
+    border-color: #1F2A35;
+}
+.alert.alert-success.col-lg-3.eventMargins a
+{
+    color: #fff;
+}
+.alert.alert-success.col-lg-3.eventMargins a:hover
+{
+    color: #31A3DD;
+}
+
+.overFlowEvents 
+{
+
+}

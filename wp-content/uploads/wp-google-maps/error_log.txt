@@ -1,0 +1,2 @@
+Error log created
+2014-11-20 00:58:38: Could not save XML file -> Could not save marker XML file (/var/www/wpress.bandtracker.ca/wp-content/uploads/wp-google-maps/1markers.xml) for Map ID 1
